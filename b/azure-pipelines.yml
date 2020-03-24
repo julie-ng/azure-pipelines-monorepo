@@ -2,8 +2,13 @@
 name: $(BuildID)
 
 trigger:
-  - master
-  - feat/*
+  branches:
+    include:
+      - master
+      - feat/*
+  paths:
+    include:
+      - 'b/*'
 
 pool:
   vmImage: 'ubuntu-latest'
