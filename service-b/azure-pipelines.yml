@@ -1,6 +1,10 @@
 # Build numbering format
 name: $(BuildID)
 
+variables:
+  - name: working-dir
+    value: 'service-b/'
+
 trigger:
   branches:
     include:
@@ -17,7 +21,7 @@ steps:
 - script: echo "Hello from 'service-b'"
 
 - script: npm install
-  workingDirectory: b/
+  workingDirectory: $(working-dir)
 
 - script: npm run chalk
-  workingDirectory: b/
+  workingDirectory: $(working-dir)
