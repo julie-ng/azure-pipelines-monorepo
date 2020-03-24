@@ -1,0 +1,14 @@
+{
+  "name": "b",
+  "version": "0.0.0",
+  "author": "",
+  "description": "",
+  "dependencies": {
+    "chalk": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "chalk": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

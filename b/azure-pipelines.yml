@@ -14,5 +14,10 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-  - script: |
-      echo "Hello from 'b'"
+- script: echo "Hello from 'b'"
+
+- script: npm install
+  workingDirectory: b/
+
+- script: npm run chalk
+  workingDirectory: b/
