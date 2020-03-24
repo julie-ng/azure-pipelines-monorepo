@@ -8,13 +8,13 @@ trigger:
       - feat/*
   paths:
     include:
-      - 'b/*'
+      - 'service-b/*'
 
 pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo "Hello from 'b'"
+- script: echo "Hello from 'service-b'"
 
 - script: npm install
   workingDirectory: b/
