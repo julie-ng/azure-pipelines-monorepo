@@ -8,7 +8,7 @@ trigger:
       - feat/*
   paths:
     include:
-      - 'a/*'
+      - 'service-a/*'
 
 pool:
   vmImage: 'ubuntu-latest'
