@@ -8,7 +8,8 @@ trigger:
       - feat/*
   paths:
     exclude:
-      - '**/*'
+      - 'a/**/*'
+      - 'b/**/*'
 
 pool:
   vmImage: 'ubuntu-latest'
