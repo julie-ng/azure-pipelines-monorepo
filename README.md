@@ -22,8 +22,8 @@ This project has 3 different YAML pipelines, one in the project root and two in 
 |── azure-pipelines-a.yml
 │   └── …
 └── service-b
-		|── azure-pipelines-b.yml
-		└── …
+    |── azure-pipelines-b.yml
+    └── …
 ```
 
 ## Steps Required in Azure DevOps UI
@@ -42,9 +42,9 @@ If you have issues, fork the repo.
 2. click **"New Pipeline"** blue button
 3. Select the repository
 4. Under **"Configure your Pipeline"**, select **"Existing Azure Pipelines YAML file"**. Run these steps 1-4 **three times**, each time selecting a different YAML file:
-	- `azure-pipelines.yml`
-	- `service-a/azure-pipelines-a.yml`
-	- `service-b/azure-pipelines-b.yml`
+  - `azure-pipelines.yml`
+  - `service-a/azure-pipelines-a.yml`
+  - `service-b/azure-pipelines-b.yml`
 
 <img src="./images/devops-yaml-file-path.png" width="450" alt="Select a different YAML file path in the Azure DevOps UI">	
 
