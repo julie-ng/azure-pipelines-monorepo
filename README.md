@@ -1,4 +1,4 @@
-# azure-devops-monorepo
+# azure-pipelines-monorepo
 
 [![Build Status](https://dev.azure.com/julie-msft/Public%20Demos/_apis/build/status/azure-devops-monorepo%20(root)?branchName=master)](https://dev.azure.com/julie-msft/Public%20Demos/_build/latest?definitionId=9&branchName=master)
 
@@ -56,7 +56,7 @@ The default names Azure DevOps are not great:
 - julie-ng.azure-devops-monorepo (1)
 - julie-ng.azure-devops-monorepo (2)
 
-I've renamed mine to
+I've renamed mine to:
 
 - azure-devops-monorepo (root)
 - azure-devops-monorepo (Service A)
@@ -97,10 +97,10 @@ Note: the paths are always defined relative to the project root, not the locatio
 
 ## Caveats!
 
-There's a reason why monorepos are not common. If you choose this setup, be aware:
+There's a reason why monorepos are not common. If you choose this setup…
 
 - Be Aware of Other Triggers, not just CI ones
 - Are we Building A or B or both?
 - Keep your Working Directory in Mind, e.g. running `npm install` doesn't work from root. So you may need to set `workingDirectory` in _each_ step.
 
-For details, see my blog article [Creating Monorepo Pipelines in Azure DevOps](https://julie.io/writing/monorepo-pipelines-in-azure-devops/).
+For details, see my blog article [Creating Monorepo Pipelines in Azure DevOps &rarr;](https://julie.io/writing/monorepo-pipelines-in-azure-devops/)
